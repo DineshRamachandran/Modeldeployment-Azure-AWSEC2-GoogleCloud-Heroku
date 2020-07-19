@@ -1,2 +1,2 @@
 
-Regression based model to predict the salary based on experience & scores. Deploying the model in Heroku(PAAS) environment.
+Regression based model to predict the salary based on experience & scores. Deployed the model in Heroku(PAAS) enviroment using Flask framework.
