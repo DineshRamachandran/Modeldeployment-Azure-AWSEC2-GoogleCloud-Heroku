@@ -9,9 +9,6 @@ I used different type of cloud service provider for Deploying Model
 3. AWS EC2 
 4. Heroku
 
-
-
-
 1). Microsoft Azure (IAAS)
 
 CI / CD - continous integration & continous deployment process
@@ -30,8 +27,41 @@ Step2: Development center
  
  https://aqijaiput.azurewebsites.net
 
+2). AWS EC2 instance
 
-2). Google cloud:
+Install
+
+1. Ubuntu
+2. putty & putty gen
+3. winscp
+
+
+login AWS EC2 instance
+EC2 - virtual server in the cloud
+	Launch instance -creating the cloud server - where we can deploy the model and get api
+
+ubuntu - generate the .pem file
+	.pem file used to create private key to intract with the cloud environment
+
+puttygen - using .pem file generate ppk file (private key)  
+
+winscp- use ppk and host info from ec2 to login
+	transfer file from one envs to another envs
+
+putty - use ppk and host info from ec2 to login
+          connect ubuntu server
+          /home/ubuntu
+	
+          install 
+          pip3 install pandas
+	pip3 install -r requirement.txt
+	python3 app.py
+
+select api+:8080 
+
+http://ec2-18-223-109-195.us-east-2.compute.amazonaws.com:8080
+
+3). Google cloud:
           gcloud is the main command line tool of google cloud sdk which allow us to manage resources on google cloud platform and perform various developer workflow tasks.
                    
           Install Gcloud sdk installer - it bring the code to the gcloud env
