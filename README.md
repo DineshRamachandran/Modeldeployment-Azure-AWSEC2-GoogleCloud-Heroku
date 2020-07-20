@@ -10,6 +10,8 @@ I used different type of cloud service provider for Deploying Model
 4. Heroku
 
 
+
+
 1. Microsoft Azure (IAAS)
 
 CI / CD - continous integration & continous deployment process
