@@ -12,7 +12,7 @@ I used different type of cloud service provider for Deploying Model
 
 
 
-1. Microsoft Azure (IAAS)
+1). Microsoft Azure (IAAS)
 
 CI / CD - continous integration & continous deployment process
 Developer need to takecare:  Application / Data 
@@ -31,7 +31,24 @@ Step2: Development center
  https://aqijaiput.azurewebsites.net
 
 
-2. Heroku Environment (PAAS)
+2. Google cloud:
+          gcloud is the main command line tool of google cloud sdk which allow us to manage resources on google cloud platform and perform various developer workflow tasks.
+                   
+          Install Gcloud sdk installer - it bring the code to the gcloud env
+          Main files are
+                    main_app.py - model creation file
+                    app.yaml   - runtime: python37
+                    requirement.txt
+                    
+          login to console.cloud.google.com
+          create project in IAM & ADMIN - manage resources - create project
+          cmd prompt -change to working location  
+                    gcloud init
+                    gcloud app deploy app.yaml
+          
+      
+
+Heroku Environment (PAAS)
 
 Platform as a service:
 Developer need to takecare:  Application / Data 
