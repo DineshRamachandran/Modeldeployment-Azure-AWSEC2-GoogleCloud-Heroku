@@ -31,7 +31,7 @@ Step2: Development center
  https://aqijaiput.azurewebsites.net
 
 
-2. Google cloud:
+2). Google cloud:
           gcloud is the main command line tool of google cloud sdk which allow us to manage resources on google cloud platform and perform various developer workflow tasks.
                    
           Install Gcloud sdk installer - it bring the code to the gcloud env
@@ -48,7 +48,7 @@ Step2: Development center
           
       
 
-Heroku Environment (PAAS)
+4). Heroku Environment (PAAS)
 
 Platform as a service:
 Developer need to takecare:  Application / Data 
